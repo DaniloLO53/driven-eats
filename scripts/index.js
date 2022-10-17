@@ -234,11 +234,11 @@ const requestWhatsapp = () => {
   const name = prompt('Por favor, insira seu nome: ');
   const adress = prompt('Por favor, insira seu endereço: ');
 
-  const link = encodeURIComponent(`*Olá, gostaria de fazer o pedido:*
-    *- Prato:* ${requestInfo[0].food.name}
-    *- Bebida:* ${requestInfo[1].drink.name}
-    *- Sobremesa:* ${requestInfo[2].dessert.name}
-    *Total:* ${requestInfo.total.price}
+  const link = encodeURIComponent(`Olá, gostaria de fazer o pedido:
+    - Prato: ${requestInfo[0].food.name}
+    - Bebida: ${requestInfo[1].drink.name}
+    - Sobremesa: ${requestInfo[2].dessert.name}
+    Total: ${requestInfo.total.price}
     
     Nome: ${name}
     Endereço: ${adress}`
