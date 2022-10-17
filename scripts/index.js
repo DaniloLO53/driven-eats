@@ -238,7 +238,7 @@ const requestWhatsapp = () => {
     *- Prato:* ${requestInfo[0].food.name}
     *- Bebida:* ${requestInfo[1].drink.name}
     *- Sobremesa:* ${requestInfo[2].dessert.name}
-    *Total:* R$ ${requestInfo.total.price}
+    *Total:* ${requestInfo.total.price}
     
     Nome: ${name}
     Endereço: ${adress}`
